@@ -295,7 +295,6 @@ max-width: 129px;
 }
 
 .tabs{
-	background-color: #090f1e;
     bottom: 0;
     left: 0;
     padding-bottom: 0;
@@ -309,9 +308,6 @@ max-width: 129px;
     border-top: 1px solid #15192f;
     contain: layout style size;
     height: 60px;
-	background: linear-gradient(225deg, var(--universal-bonus-modal__gradient-start) -7.8%, var(--universal-bonus-modal__gradient-end) 100%);
-	--universal-bonus-modal__gradient-start: #000a27;
-    --universal-bonus-modal__gradient-end: #000219;
     position: relative;
     -webkit-user-select: none;
     -moz-user-select: none;
