@@ -51,6 +51,13 @@ body, html {
 	margin-bottom: 10px;
 }
 
+.header-profile img{
+  pointer-events:none;
+  width:100%;
+  height: auto;
+  border-radius: 100%;
+}
+
 .header-auth-btn{
 	background: linear-gradient(107deg, rgb(83, 113, 224) 0%, rgb(0, 62, 204) 100%);
     font-size: 13px;
@@ -463,3 +470,18 @@ max-width: 129px;
 .wallet-history-item-header-info{
 	margin-left: 10px;
 }
+
+
+.wallet-block-btn-into {
+display:flex;
+align-items:center;
+justify-content:center;
+margin-left:auto;
+}
+.wallet-block-btn-into svg{
+  fill:#fff;
+  width: 17px;
+  height: 17px;
+}
+
+
