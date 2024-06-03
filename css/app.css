@@ -297,6 +297,7 @@ max-width: 129px;
 .tabs{
     bottom: 0;
     left: 0;
+    background: #090e1c;
     padding-bottom: 0;
     padding-bottom: env(safe-area-inset-bottom, 0);
     position: fixed;
@@ -308,6 +309,7 @@ max-width: 129px;
     border-top: 1px solid #15192f;
     contain: layout style size;
     height: 60px;
+    background: #090e1c;
     position: relative;
     -webkit-user-select: none;
     -moz-user-select: none;
