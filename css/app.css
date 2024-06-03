@@ -381,6 +381,7 @@ max-width: 129px;
     line-height: 24px;
     text-transform: uppercase;
     width: 32px;
+    margin-right: 10px;
 }
 
 .header-profile-name{
@@ -388,7 +389,6 @@ max-width: 129px;
 	cursor: pointer;
 	font-weight: 500;
 	font-size: 14px;
-	margin-left: 5px;
 }
 
 .wallet-history{
