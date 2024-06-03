@@ -14,7 +14,8 @@ body, html {
 }
 
 .header{
-	background: linear-gradient(225deg, var(--universal-bonus-modal__gradient-start) -7.8%, var(--universal-bonus-modal__gradient-end) 100%);
+        margin-top: 30px;
+	border-top: 1px solid #000d33;
 	height: 70px;
 	position: relative;
 	z-index: 999;
