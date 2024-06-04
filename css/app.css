@@ -486,6 +486,7 @@ max-width: 129px;
 	position: relative;
     margin: 0;
     overflow: hidden;
+	list-style:none;
 	margin-top: 20px;
 }
 
@@ -501,6 +502,11 @@ max-width: 129px;
     max-width: 235px;
 	margin-left: 15px;
     flex: none;
+	transition: .3s;
+}
+
+.carousel-card-link:active{
+	transition: scale(0.9);
 }
 
 .carousel-card-link:first-child {
