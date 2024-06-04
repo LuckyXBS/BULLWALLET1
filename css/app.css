@@ -577,6 +577,15 @@ max-width: 129px;
 	display:block;
 }
 
+.payment-page-block{
+	display:none;
+}
+
+.payment-page-block.active{
+	display:block;
+}
+
+
 .history-page-block{
 	display:none;
 }
