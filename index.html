@@ -230,5 +230,20 @@
 </nav>
 </div>
 
+  <script>
+$(function(){
+	$('.history-btn-wallet').click(function(event) {
+		$('.tabs-li-item').removeClass('active');
+		$('.home-page-block').removeClass('active');
+		$('.history-page-block').addClass('active');
+	});
+	$('.home-tab-li').click(function(event) {
+		$('.tabs-li-item').addClass('active');
+		$('.home-page-block').addClass('active');
+		$('.history-page-block').removeClass('active');
+	});
+});	
+</script>
+
 </body>
 </html>
