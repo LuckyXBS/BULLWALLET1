@@ -521,7 +521,7 @@ max-width: 129px;
 }
 
 .carousel-card-content:before {
-    padding-top: 123.33%;
+    padding-top: 100%;
     content: "";
     display: block;
 }
