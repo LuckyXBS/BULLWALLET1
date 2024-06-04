@@ -1,7 +1,7 @@
 * {
     border: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     outline: 0;
     padding: 0;
@@ -471,17 +471,154 @@ max-width: 129px;
 	margin-left: 10px;
 }
 
-
-.wallet-block-btn-into {
-display:flex;
-align-items:center;
-justify-content:center;
-margin-left:auto;
-}
-.wallet-block-btn-into svg{
-  fill:#fff;
-  width: 17px;
-  height: 17px;
+.wallet-separator{
+	width: 100%;
+    height: 1px;
+    background-color: #15192f;
+    margin: 15px 0;
 }
 
+.wallet-block-btn-into{
+	margin-left: auto;
+}
 
+.carousel-wrapper{
+	position: relative;
+    margin: 0;
+    overflow: hidden;
+	margin-top: 20px;
+}
+
+.carousel-home{
+	display: flex;
+    min-width: 100vw;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.carousel-card-link{
+	width: calc(67.5% - 15px);
+    max-width: 235px;
+	margin-left: 15px;
+    flex: none;
+}
+
+.carousel-card-link:first-child {
+    margin-left: 0;
+}
+
+.carousel-card-content{
+	background-color: #0008ff;
+    border-radius: 12px;
+    color: #fff;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    will-change: transform;
+    white-space: pre-line;
+}
+
+.carousel-card-content:before {
+    padding-top: 123.33%;
+    content: "";
+    display: block;
+}
+
+.carousel-card-container{
+	padding: 15px;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 1.2;
+}
+
+.carousel-card-container-title{
+	font-weight: 700;
+    will-change: transform;
+	font-size: 20px;
+    line-height: 24px;
+	color: #fff;
+}
+
+.carousel-card-arrow{
+	bottom: -1px;
+    right: -1px;
+    width: 28%;
+    height: 22.7%;
+	position: absolute;
+    will-change: transform;
+
+}
+
+.carousel-card-arrow svg{
+	width: 23%;
+    bottom: 31%;
+	fill: #fff;
+	position: absolute;
+    will-change: transform;
+    right: 30%;
+}
+
+.dvdgjeiwqd{
+	visibility: hidden;
+	pointer-events: none;
+	margin-top: 50px;
+}
+
+.home-page-block{
+	display:none;
+}
+
+.home-page-block.active{
+	display:block;
+}
+
+.history-page-block{
+	display:none;
+}
+
+.history-page-block.active{
+	display:block;
+}
+
+.page-name{
+	color: #fff;
+	font-weight: 700;
+    font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+}
+
+.history-block-section{
+	padding: 40px 20px;
+}
+
+.message-block-title{
+	font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+	color: #fff;
+}
+
+.message-block-text{
+    color: #dadada;
+    font-size: 14px;
+    line-height: 1.1;
+    margin: 5px auto 0;
+    max-width: 70%;
+    text-align: center;
+}
+
+.message-block-icon[data-v-2d3fe494] {
+    display: block;
+    font-size: 80px !important;
+    margin: 0 auto 35px;
+}
