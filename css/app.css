@@ -607,6 +607,14 @@ max-width: 129px;
 	display:block;
 }
 
+.more-page-block{
+	display:none;
+}
+
+.more-page-block.active{
+	display:block;
+}
+
 .page-name{
 	color: #fff;
 	font-weight: 700;
